@@ -1,0 +1,117 @@
+.logo {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url("../LOGO PRODUCT.png");
+    background-size: cover;
+}
+body{
+    background: linear-gradient(to bottom, #ef9c54, #ebb17e);
+    min-height: 100vh;
+    margin: 0;
+}
+/* Container untuk Portofolio */
+.hq-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px 0;
+    text-align: center;
+}
+.hq-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; 
+    border: 2px solid #333; 
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+.Menu1 {
+    background-image: url("../Menu 1.jpg");
+}
+
+.Menu2 {
+    background-image: url("../Menu 2.jpg");
+}
+.Menu3{
+    background-image: url("../Menu 3.jpg")
+}
+.Menu4{
+    background-image: url("../Menu 4.jpg");
+}
+.Menu5{
+    background-image: url("../Menu 5.jpg");
+}
+/*untuk tabel form*/
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    align-items: flex-start;
+}
+
+.form-section, .result-section {
+    flex: 1;
+    border: 1px solid #333;
+    padding: 20px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+    align-items: flex-start;
+}
+.form-section, 
+.result-section {
+    flex: 1; 
+    padding: 20px;
+    border: 1px solid #333 !important; 
+    min-height: 300px;
+    background-color: transparent !important; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    width: 120px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.form-group textarea {
+    height: 100px;
+    resize: none;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #333;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #cccccc;
+}
+.result-section p {
+    margin: 10px 0;
+    line-height: 1.5;
+}

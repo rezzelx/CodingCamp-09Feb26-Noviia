@@ -1,0 +1,155 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Corndog</title>
+    <title>Our Portofolio</title>
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <!-- Header Content -->
+    <header></header>
+    <header class="flex justify-between items-center p-4">
+        <!-- Logo -->
+        <div class="logo"></div>
+
+        <!-- Navigation Menu -->
+        <nav class="flex">
+            <a class="border rounded p-2" href="#home-page">Home</a>
+            <a class="border rounded p-2" href="#our-profile-page">Our Profile</a>
+            <a class="border rounded p-2" href="#portfolio-page">Portfolio</a>
+            <a class="border rounded p-2" href="#message-us-page">Message Us</a>
+        </nav>
+    </header>
+
+    <hr />
+
+    <!-- Main Content -->
+    <main></main>
+    <main>
+        <!-- Home Page -->
+        <section id="home-page" class="min-h-[250px] text-left content-center px-10 ">
+            <h2 class="text-xl font-bold" id="welcome-speech">Welcome to Our Website</h2>
+            <p class="mt-2">Thank you for visiting our website. 
+                Explore our offerings and place your order today.
+                Don’t miss our exclusive promo offers available for a limited time.</p>
+        </section>
+
+        <hr />
+
+        <!-- Our Profile Page -->
+        <section id="our-profile-page" class="min-h-[300px] text-left content-center px-10">
+            <h2 class="text-xl font-bold">About Hungry Corndog</h2>
+            <p class="mt-2">
+            Corndog is a popular snack that originated in the United States. 
+            This dish consists of a sausage skewered on a stick, coated in a cornmeal-based batter, 
+            and deep-fried until golden brown with a crisp exterior. Corndogs are typically 
+            served with condiments such as ketchup or mustard and are widely recognized as a popular street food.
+            Now, you no longer need to travel far to try it, you can enjoy it directly from our store.
+            We are committed to providing food products that can be enjoyed anytime and anywhere.</p>
+        </section>
+
+        <hr />
+
+        <!-- Portfolio Page -->
+        <section id="portfolio-page" class="min-h-[100px] text-left content-center px-10">
+            <h2 class="text-xl font-bold" >Our Menu</h2>
+            <p class="mt-2">Below are the featured menu selections from our product.</p>
+        </section>
+
+        <section id="Our Menu">
+    <div class="px-10">
+        <p>Most Order</p>
+    </div>
+        <div class="hq-container">
+        <div class="hq-item">
+            <div class="hq-image menu1"></div>
+            <p>Mozarella</p>
+        </div>
+        <div class="hq-item">
+            <div class="hq-image menu2"></div>
+            <p>Sosis Mozarella</p>
+        </div>
+        <div class="hq-item">
+            <div class="hq-image menu3"></div>
+            <p>Sosis</p>
+        </div>
+        <div class="hq-item">
+            <div class="hq-image menu4"></div>
+            <p>Mozarella Kentang</p>
+        </div>
+        <div class="hq-item">
+            <div class="hq-image menu5"></div>
+            <p>Choco Chrunchy</p>
+</section>
+
+        <hr />
+
+        <!-- Message Us Page -->
+        <section id="message-us-page" class="min-h-[500px] text-left content-center px-10">
+            <header>
+                <h2 class="text-xl font-bold" style="padding-top: 30px;">Message Us</h2>
+                <p class="mt-2">Have questions or want to order? If you have any questions, please do not hesitate to contact us. 
+                    We will gladly provide the information you need</p>
+            </header>
+
+            <section id="message-us-section">
+    
+<section id="message-us">
+    <h2>Message Us</h2>
+    <div class="container"> 
+        
+        <div class="form-section">
+            <form name="message-form" onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label for="name-input">Nama:</label>
+                    <input type="text" id="name-input" placeholder="Masukkan Nama" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="birth-input">Tanggal Lahir:</label>
+                    <input type="date" id="birth-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Jenis Kelamin:</label>
+                    <label><input type="radio" name="gender" value="Laki-Laki" checked> Laki-Laki</label>
+                    <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="message-input">Pesan:</label>
+                    <textarea id="message-input" placeholder="Tulis pesan Anda..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="result-section">
+            <p><strong>Current time :</strong> <span id="current-time"></span></p>
+            <br>
+            <p><strong>Nama :</strong> <span id="res-name"></span></p>
+            <p><strong>Tanggal Lahir :</strong> <span id="res-birth"></span></p>
+            <p><strong>Jenis Kelamin :</strong> <span id="res-gender"></span></p>
+            <p><strong>Pesan :</strong> <span id="res-message"></span></p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Footer Content -->
+    <footer></footer>
+    <footer>
+        <hr />
+        <p class="text-center p-4">© 2026 Hungry Corndog. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript External -->
+    <script src="js/script.js"></script>
