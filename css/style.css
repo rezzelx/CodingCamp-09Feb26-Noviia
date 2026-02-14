@@ -14,18 +14,22 @@ body{
 .hq-container {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 50px;
     margin: 40px 0;
     text-align: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
 }
 .hq-image {
     height: 150px;
     width: 150px;
     border-radius: 50%; 
-    border: 2px solid #333; 
+    border: 3px solid #333; 
     background-size: cover;
     background-position: center;
-    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
+    display: block;
 }
 .Menu1 {
     background-image: url("../Menu 1.jpg");
